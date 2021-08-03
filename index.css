@@ -45,6 +45,7 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
 
 header{
     color:white;
@@ -58,11 +59,15 @@ nav{
     justify-content: space-between;
     align-items: center;
 }
+nav h1{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding-left:20px;
+}
 nav a{
     height:90%;
     text-decoration: none;
     color:white;
-    padding:0px 60px;
+    padding:0px 30px;
 }
 nav a:hover{
     color:rgb(72, 219, 207);
