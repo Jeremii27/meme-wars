@@ -102,11 +102,9 @@ let rank3Container = document.getElementById("rank3-bar");
 rank3Container.addEventListener("mouseover",rank3Mouseover);
 rank3Container.addEventListener("mouseout",rank3Mouseout);
 
-
-
 let onStage1 = 0;
 let onStage2 = 1;
-let totalMemesCount = 5;
+let totalMemesCount = 9;
 var memeArray = new Array(totalMemesCount);
 for (let i=0; i<totalMemesCount;i++){
     memeArray[i] = new Array(3);
