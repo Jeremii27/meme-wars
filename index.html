@@ -14,28 +14,48 @@
             <div class="links">
                 <a class="current-page" href="">Vote</a>
                 <a href="#submit-section">Submit</a>
-                <a href="">Hall of Memes</a>                
+                <a href="">Marketplace</a>                
             </div>
         </nav>
     </header>
     <main>
-        MEMES TO BE PRESENTED HERE
+        
         <div id="meme-stage">
             <div id="meme-1">
-                <img src="images/meme-example-1.png" alt="the first meme image">
-                <button id="vote-first">This one is best</button>
+                <img id="image-1"src="images/1-meme.png" alt="the first meme image">
+                <button class="voting-button"id="vote-1st">This one is best</button>
             </div>
             <div id="meme-2">
-                <img src="images/meme-example-2.png" alt="the first meme image">
-                <button id="vote-second">No this one is best</button>
-            </div></div>
+                <img id="image-2"src="images/2-meme.png" alt="the first meme image">
+                <button class="voting-button"id="vote-2nd">No this one is best</button>
+            </div>
+            <img class="leaderboard-image"id="rank1-image"src="" alt="ranked 1 image">
+            <img class="leaderboard-image"id="rank2-image"src="" alt="ranked 2 image">
+            <img class="leaderboard-image"id="rank3-image"src="" alt="ranked 3 image">           
+        </div>
+        
         <div id="vote-stage">
                 
+        <div id="leaderboard-section">
+            <div class="leaderboard-container" id="rank1-container">
+                <label class="leaderboard-label"id ="rank1-label"for="rank1-bar">1<sup>st</sup></label>
+                <div class="leaderboard-bar"id="rank1-bar"></div>  
                 
+            </div>
+            <div class="leaderboard-container" id="rank2-container">
+                <label class="leaderboard-label" id ="rank2-label"for="rank2-bar">2<sup>nd</sup></label>
+                <div class="leaderboard-bar" id="rank2-bar"></div>  
+            </div>
+            <div class="leaderboard-container" id="rank3-container">
+                <label class="leaderboard-label" id ="rank3-label"for="rank3-bar">3<sup>rd</sup></label>
+                <div class="leaderboard-bar" id="rank3-bar"></div>  
+            </div>                    
         </div>
     </main>
     <div id="submit-section">
-        Submit Your Meme
+
     </div>
+
+    <script src="index.js"></script>
 </body>
 </html>
